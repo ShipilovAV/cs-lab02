@@ -13,7 +13,7 @@ cout << "A * B = " << a * b << '\n';
 cout << "A / B = " << a / b << '\n';
 int min;
 min = a;
-if (min < b) {
+if (min > b) {
     b = min;
 }
 cout << "min(A,B) = " << min;
